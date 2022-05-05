@@ -16,19 +16,19 @@ It’s also used popular packages that put together a framework for the entire a
 
 ## Virtual env
 ````
-```
+
 pip install virtualenvwrapper
 mkvirtualenv yourOptinallyEnvironmentName
 workon yourOptinallyEnvironmentName
 pip install -r requirements.txt
-```
+
 ````
 
 ## Run
 ````
-```
+
 python manage.py makemigrations
 python manage.my migrate
 python manage.py runserver
-```
+
 ````
